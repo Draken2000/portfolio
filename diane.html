@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body style="background-color: #f0f0f0;">
+    <header style="background-color: #333; color: #fff; padding: 10px;">
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" style="color: #fff;">Home</a></li>
+                <li><a href="#about" style="color: #fff;">About</a></li>
+                <li><a href="#work" style="color: #fff;">Work</a></li>
+                <li><a href="#resume" style="color: #fff;">Resume</a></li>
+                <li><a href="#contact" style="color: #fff;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" style="background-color: #fff; padding: 20px;">
+            <h2>Home Section</h2>
+            <!-- Your content for the Home section goes here -->
+        </section>
+
+        <section id="about" style="background-color: #ddd; padding: 20px;">
+            <h2>About Section</h2>
+            <!-- Your content for the About section goes here -->
+        </section>
+
+        <section id="work" style="background-color: #ccc; padding: 20px;">
+            <h2>Work Section</h2>
+            <!-- Your content for the Work section goes here -->
+        </section>
+
+        <section id="resume" style="background-color: #bbb; padding: 20px;">
+            <h2>Resume Section</h2>
+            <!-- Your content for the Resume section goes here -->
+        </section>
+
+        <section id="contact" style="background-color: #aaa; padding: 20px;">
+            <h2>Contact Section</h2>
+            <!-- Your content for the Contact section goes here -->
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 10px;">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
